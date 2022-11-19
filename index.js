@@ -76,8 +76,6 @@ app.put("/college/:id", (req, res) => {
 
             }
 
-
-
         }
 
         x = JSON.stringify(x)
@@ -161,4 +159,4 @@ app.get("/college/:id", (req, res) => {
 
 })
 
-app.listen("101010", () => console.log('listening on port 101010'));
+app.listen("5050", () => console.log('listening on port 5050'));
